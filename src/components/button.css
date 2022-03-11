@@ -5,6 +5,8 @@
     --rounded:#ff5722;
     --transparent: #fdfdfd;
     --boxShadow:#558b2f;
+    --link:#ffa000;
+
 
 }
 .btn{
@@ -46,6 +48,10 @@
     background-color: var(--boxShadow);
     color: white;
     box-shadow: 0px 10px 10px lightgray;
+}
+.btn--link--solid{
+    background-color: var(--link);
+    color: black;
 }
 
 /*Button Size*/

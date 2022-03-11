@@ -11,7 +11,9 @@ const STYLES = [
     "btn--danger--solid",
     "btn--rounded--solid",
     "btn--transparent--solid",
-    "btn--boxShadow--solid"
+    "btn--boxShadow--solid",
+    "btn--link--solid"
+
 
 
 ];

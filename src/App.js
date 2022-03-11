@@ -4,10 +4,10 @@ import { Button } from "./components/Button";
 
 function clickMe() {
   alert("You clicked me");
-} 
+}
 function clickWarning() {
   console.warn("warning");
-} 
+}
 
 function App() {
   return (
@@ -33,7 +33,6 @@ function App() {
         type="button"
         buttonStyle="btn--danger--solid"
         buttonSize="btn--medium"
-        
       >
         Danger
       </Button>
@@ -53,6 +52,16 @@ function App() {
       >
         Transparent
       </Button>
+      <a href="http://avinavstha.github.io/AviPortfolio">
+        <Button
+          type="button"
+          buttonStyle="btn--link--solid"
+          buttonSize="btn--medium"
+        >
+          Link
+        </Button>
+      </a>
+
       <Button
         type="button"
         buttonStyle="btn--boxShadow--solid"
