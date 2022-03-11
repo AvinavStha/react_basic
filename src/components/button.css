@@ -1,4 +1,64 @@
-.buttonType{
+:root {
+    --primary:#3949ab;
+    --danger:#00695c;
+    --warning:#b71c1c;
+    --rounded:#ff5722;
+    --transparent: #fdfdfd;
+    --boxShadow:#558b2f;
+
+}
+.btn{
+    font-family:monospace;
+    font-weight: 400;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+
+.btn:hover{
+    transform: translateY(-3px);
+}
+/* Button style*/
+.btn--primary--solid{
+    background-color: var(--primary);
+    color: white;
+}
+.btn--danger--solid{
+    background-color: var(--danger);
+    color: white;
+}
+.btn--warning--solid{
+    background-color: var(--warning);
+    color: white;
+}
+.btn--rounded--solid{
+    background-color: var(--rounded);
+    color: gold;
+    border-radius: 40px;
+}
+.btn--transparent--solid{
+    background-color: var(--transparent);
+    color: black;
+}
+.btn--boxShadow--solid{
+    background-color: var(--boxShadow);
+    color: white;
+    box-shadow: 0px 10px 10px lightgray;
+}
+
+/*Button Size*/
+.btn--medium{
+    padding: 15px 30px;
+    font-size: 20px;
+}
+.btn--large{
+    padding: 20px 40px;
+    font-size: 20px;
+}
+
+/* .buttonType{
     margin: 20px;
     padding:20px;
 }
@@ -76,4 +136,4 @@
     border: 0;
     margin: 10px;
     padding:5px 15px;
-}
+} */
